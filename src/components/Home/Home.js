@@ -1,0 +1,45 @@
+import React from "react";
+import { Container, Row, Col } from "react-bootstrap";
+import "bootstrap/dist/css/bootstrap.min.css";
+import "../../styles/Home.css";
+import homeLogo from "../../assets/main.png";
+import Particle from "../Particle";
+import HomeTwo from "./HomeTwo";
+import Type from "./Type";
+import Platforms from "./Platforms";
+
+const Home = () => {
+  return (
+    <section>
+      <Container fluid className="home-section">
+        <Particle />
+        <Container className="home-content">
+          <Row>
+            <Col md={7} className="home-header">
+              <h1 style={{ paddingBottom: 15 }} className="heading">
+                Hello There ! ! !
+              </h1>
+
+              <h1 className="heading-name">
+                I am
+                <strong className="main-name"> PRASUK JAIN</strong>
+              </h1>
+
+              <Container style={{ padding: 50, textAlign: "left" }}>
+                <Type />
+              </Container>
+              <Platforms />
+            </Col>
+
+            <Col md={5} style={{ paddingBottom: 20 }}>
+              <img src={homeLogo} alt="home pic" className="img-fluid" />
+            </Col>
+          </Row>
+        </Container>
+      </Container>
+      <HomeTwo />
+    </section>
+  );
+};
+
+export default Home;

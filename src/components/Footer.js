@@ -2,7 +2,7 @@ import React from "react";
 import "../styles/Footer.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import { Container, Row, Col } from "react-bootstrap";
-import heart from "../Assets/heart_shape.png";
+import heart from "../assets/heart_shape.png";
 
 function Footer() {
   let date = new Date();
