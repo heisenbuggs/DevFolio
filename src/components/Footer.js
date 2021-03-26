@@ -10,15 +10,25 @@ function Footer() {
   return (
     <Container fluid className="footer">
       <Row>
+        <Col md="12" className="quote">
+          <h6>
+            " THOSE WHO CAN'T REMEMBER THE PAST ARE CONDEMNED TO REPEAT IT. "
+          </h6>
+        </Col>
+        <Col md="12" className="quote-author blockquote-footer">
+          Dynamic Programming
+        </Col>
+      </Row>
+      <Row>
+        <Col md="4" className="footer-copywright">
+          <h3>Copyright © {year} PJ</h3>
+        </Col>
         <Col md="4" className="footer-copywright">
           <h3>
             Developed with{" "}
             <img src={heart} alt="heart-logo" className="heart" /> by Prasuk
             Jain
           </h3>
-        </Col>
-        <Col md="4" className="footer-copywright">
-          <h3>Copyright © {year} PJ</h3>
         </Col>
         <Col md="4" className="footer-body">
           <ul className="footer-icons">

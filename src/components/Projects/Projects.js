@@ -5,6 +5,9 @@ import BlogCard from "./BlogsCards";
 import Particle from "../Particle";
 import "../../styles/Projects.css";
 import "bootstrap/dist/css/bootstrap.min.css";
+import Animate from "react-smooth";
+import Particles from "react-particles-js";
+import particles from "../LineParticle";
 
 import graph from "../../assets/Projects/graph.png";
 import coursera from "../../assets/Projects/Coursera.png";
@@ -14,70 +17,73 @@ import codehour from "../../assets/Projects/full-logo.png";
 
 function Projects() {
   return (
-    <Container fluid className="project-section">
-      <Particle />
-      <Container>
-        <h1 className="project-heading">
-          My Recent <strong className="purple">Works </strong>
-        </h1>
-        <p style={{ color: "white" }}>
-          "What you are, will be shown up in your{" "}
-          <strong className="purple">work</strong>.
-        </p>
-        <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={graph}
-              isBlog={false}
-              title="Graph Visualizer"
-              description="Helps you to visualize your Graph with ease and make your learnings faster. Developed using React, Typescript and Bootstrap."
-              link="https://github.com/itzprasuk/Graph-Visualizer"
-            />
-          </Col>
+    <Animate to="1" from="0" attributeName="opacity">
+      <Particles params={particles} className="particle" />
+      <Container fluid className="project-section">
+        <Particle />
+        <Container>
+          <h1 className="project-heading">
+            My Recent <strong className="purple">Works </strong>
+          </h1>
+          <p style={{ color: "white" }}>
+            "What you are, will be shown up in your{" "}
+            <strong className="purple">work</strong>.
+          </p>
+          <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+            <Col md={4} className="project-card">
+              <ProjectCard
+                imgPath={graph}
+                isBlog={false}
+                title="Graph Visualizer"
+                description="Helps you to visualize your Graph with ease and make your learnings faster. Developed using React, Typescript and Bootstrap."
+                link="https://github.com/itzprasuk/Graph-Visualizer"
+              />
+            </Col>
 
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={codehour}
-              isBlog={false}
-              title="CodeHour Backend"
-              description="About API Powering CodeHour Web and Mobile Application providing API for online competitive coding contests. Developed using NodeJS, ExpressJS and MongoDB."
-              link="https://github.com/itzprasuk/CodeHour-Backend"
-            />
-          </Col>
+            <Col md={4} className="project-card">
+              <ProjectCard
+                imgPath={codehour}
+                isBlog={false}
+                title="CodeHour Backend"
+                description="About API Powering CodeHour Web and Mobile Application providing API for online competitive coding contests. Developed using NodeJS, ExpressJS and MongoDB."
+                link="https://github.com/itzprasuk/CodeHour-Backend"
+              />
+            </Col>
 
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={youtube}
-              isBlog={false}
-              title="TrailShow"
-              description="Netflix based website to view trailers of latest movies and web-shows. Developed using React, Bootstrap and React-YouTube."
-            />
-          </Col>
-        </Row>
-        <h1 className="project-heading">
-          My Recent <strong className="purple">Certifications </strong>
-        </h1>
-        <p style={{ color: "white" }}>Do give a read to some of my blogs</p>
-        <Row style={{ justifyContent: "center" }}>
-          <Col md={4} className="blog-card">
-            <BlogCard
-              imgPath={coursera}
-              link=""
-              title="Full-Stack Development with React"
-              site="coursera.org"
-            />
-          </Col>
-          <Col md={4} className="blog-card">
-            <BlogCard
-              imgPath={gfg}
-              link=""
-              title="Data Structures and Algorithms"
-              site="geeksforgeeks.org"
-            />
-          </Col>
-        </Row>
+            <Col md={4} className="project-card">
+              <ProjectCard
+                imgPath={youtube}
+                isBlog={false}
+                title="TrailShow"
+                description="Netflix based website to view trailers of latest movies and web-shows. Developed using React, Bootstrap and React-YouTube."
+              />
+            </Col>
+          </Row>
+          <h1 className="project-heading">
+            My Recent <strong className="purple">Certifications </strong>
+          </h1>
+          <p style={{ color: "white" }}>Do give a read to some of my blogs</p>
+          <Row style={{ justifyContent: "center" }}>
+            <Col md={4} className="blog-card">
+              <BlogCard
+                imgPath={coursera}
+                link=""
+                title="Full-Stack Development with React"
+                site="coursera.org"
+              />
+            </Col>
+            <Col md={4} className="blog-card">
+              <BlogCard
+                imgPath={gfg}
+                link=""
+                title="Data Structures and Algorithms"
+                site="geeksforgeeks.org"
+              />
+            </Col>
+          </Row>
+        </Container>
       </Container>
-    </Container>
+    </Animate>
   );
 }
 

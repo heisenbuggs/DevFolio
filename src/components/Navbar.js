@@ -7,20 +7,20 @@ import { Link } from "react-router-dom";
 import { NavbarBrand, NavItem, NavLink } from "react-bootstrap";
 import NavbarCollapse from "react-bootstrap/esm/NavbarCollapse";
 import NavbarToggle from "react-bootstrap/esm/NavbarToggle";
-import "../styles/Navbar.css";
 import "bootstrap/dist/css/bootstrap.min.css";
+import "../styles/Navbar.css";
 
-function NavBar() {
+const NavBar = () => {
   const [expand, updateExpanded] = useState(false);
   const [navColour, updateNavbar] = useState(false);
 
-  function scrollHandler() {
-    if (window.scrollY >= 20) {
+  const scrollHandler = () => {
+    if (window.scrollY >= 70) {
       updateNavbar(true);
     } else {
       updateNavbar(false);
     }
-  }
+  };
 
   window.addEventListener("scroll", scrollHandler);
 
@@ -33,7 +33,9 @@ function NavBar() {
     >
       <Container>
         <NavbarBrand href="/">
-          <h3>itzprasuk</h3>
+          <h3 className="brand">
+            <b>{"< itzprasuk />"}</b>
+          </h3>
         </NavbarBrand>
         <NavbarToggle
           aria-controls="responsive-navbar-nav"
@@ -94,6 +96,6 @@ function NavBar() {
       </Container>
     </Navbar>
   );
-}
+};
 
 export default NavBar;

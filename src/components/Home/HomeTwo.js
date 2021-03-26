@@ -14,8 +14,8 @@ const HomeTwo = () => {
               LET ME <span className="purple"> INTRODUCE </span> MYSELF
             </h1>
             <p className="home-about-body">
-              I fell in love with programming and I have at least learnt
-              something, I think… 🤷‍♂️
+              I fell in love with programming and like to explore new things and
+              challenges everyday....
               <br />
               <br />
               Fluent in Languages like
@@ -24,7 +24,7 @@ const HomeTwo = () => {
               </i>
               <br />
               <br />
-              My current focus is on &nbsp;
+              My current focus is on&nbsp;
               <i>
                 <b className="purple">
                   Full - Stack Development and Data Structures and Algorithms .
@@ -52,7 +52,6 @@ const HomeTwo = () => {
                 alt="avatar"
                 height={300}
                 width={350}
-                
               />
             </Tilt>
           </Col>

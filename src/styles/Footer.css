@@ -42,3 +42,12 @@
   height: 25px;
   width: 25px;
 }
+
+.quote {
+  color: rgb(155, 126, 172);
+}
+
+.quote-author {
+  color: rgb(155, 126, 172);
+  margin-top: -10px;
+}
