@@ -63,18 +63,19 @@
   .Typewriter__cursor {
     display: none;
   }
+  .myAvtar {
+    padding-top: 2em;
+    padding-bottom: 2em;
+  }
+  
+  .home-platforms-social-links li:nth-child(7) {
+    visibility: hidden;
+  }
 }
 
 .myAvtar {
   margin-top: -20px;
   padding-top: 0em;
-}
-
-@media (max-width: 767px) {
-  .myAvtar {
-    padding-top: 2em;
-    padding-bottom: 2em;
-  }
 }
 
 .home-about-section {

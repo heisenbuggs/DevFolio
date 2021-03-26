@@ -13,7 +13,7 @@ import hackerrankIcon from "@iconify-icons/cib/hackerrank";
 
 const Platforms = () => {
   return (
-    <Container>
+    <Container className="platformcont">
       <Col>
         <ul className="home-platforms-social-links">
           <li className="social-icons">
