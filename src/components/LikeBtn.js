@@ -5,7 +5,7 @@ import "../styles/Navbar.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import axios from "axios";
 
-function Like() {
+const Like = () => {
   const uri = "https://porfolio-backend.vercel.app/likes/getLikes";
   const postUri = "https://porfolio-backend.vercel.app/likes/updateLikes";
 

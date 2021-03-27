@@ -3,7 +3,7 @@ import GitHubCalendar from "react-github-calendar";
 import { Row } from "react-bootstrap";
 import "bootstrap/dist/css/bootstrap.min.css";
 
-function Github() {
+const Github = () => {
   const colourTheme = {
     background: "transparent",
     text: "#ffffff",
@@ -13,6 +13,7 @@ function Github() {
     grade1: "#c084f5",
     grade0: "#ecd9fc",
   };
+  
   return (
     <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
       <h1 className="project-heading" style={{ paddingBottom: "20px" }}>

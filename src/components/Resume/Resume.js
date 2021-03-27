@@ -34,27 +34,6 @@ const Resume = () => {
                   "Fixed bugs and implemented enhancements from existing website that improved web functionality and speed.",
                 ]}
               />
-              <h3 className="resume-heading">Extracurricular Activities</h3>
-              <Resumecontent
-                title="Campus Ambassdor, GeeksforGeeks"
-                content={[
-                  "Promoted the activities and coding culture of the company within the campus.",
-                  "Motivated students to write technical articles on GeeksforGeeks’s website and take courses for developing their skills.",
-                ]}
-              />
-            </Col>
-            <Col md={6} className="resume-right">
-              <h3 className="resume-heading">Achievements</h3>
-              <Resumecontent
-                title=""
-                content={[
-                  "Level 8 Coder out of 10 among 40000 participants in Uber HackTag’21.",
-                  "Secured Global Rank 340 in September Lunchtime’20 held on CodeChef.",
-                  "Rated 4 star coder on CodeChef. (Max. Rating : 1831).",
-                  "Secured 2nd position in Web-Athon conducted by Progate at Indore-City Level.",
-                  "Secured Top 50 Rank in open source projects in GirlScript Summer of Code’20.",
-                ]}
-              />
               <h3 className="resume-heading">Education</h3>
               <Resumecontent
                 title="B.Tech. Electronics & Communication"
@@ -70,6 +49,27 @@ const Resume = () => {
                 title="Middle School "
                 date="May 2016"
                 institute="St. Mary's Convent Sr. Sec. School, Bhopal"
+              />
+            </Col>
+            <Col md={6} className="resume-right">
+              <h3 className="resume-heading">Achievements</h3>
+              <Resumecontent
+                title=""
+                content={[
+                  "Level 8 Coder out of 10 among 40000 participants in Uber HackTag’21.",
+                  "Secured Global Rank 340 in September Lunchtime’20 held on CodeChef.",
+                  "Rated 4 star coder on CodeChef. (Max. Rating : 1831).",
+                  "Secured 2nd position in Web-Athon conducted by Progate at Indore-City Level.",
+                  "Secured Top 50 Rank in open source projects in GirlScript Summer of Code’20.",
+                ]}
+              />
+              <h3 className="resume-heading">Extracurricular Activities</h3>
+              <Resumecontent
+                title="Campus Ambassdor, GeeksforGeeks"
+                content={[
+                  "Promoted the activities and coding culture of the company within the campus.",
+                  "Motivated students to write technical articles on GeeksforGeeks’s website and take courses for developing their skills.",
+                ]}
               />
             </Col>
           </Row>

@@ -1,6 +1,6 @@
 import React from "react";
 
-function ResumeContent(props) {
+const ResumeContent = (props) => {
   return (
     <div className="resume-item">
       <h4 className={props.title ? "resume-title" : "resume-no-title"}>

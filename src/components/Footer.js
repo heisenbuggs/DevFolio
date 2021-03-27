@@ -4,7 +4,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import { Container, Row, Col } from "react-bootstrap";
 import heart from "../assets/heart_shape.png";
 
-function Footer() {
+const Footer = () => {
   let date = new Date();
   let year = date.getFullYear();
   return (

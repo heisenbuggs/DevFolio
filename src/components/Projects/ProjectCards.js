@@ -3,7 +3,7 @@ import Card from "react-bootstrap/Card";
 import Button from "react-bootstrap/Button";
 import "bootstrap/dist/css/bootstrap.min.css";
 
-function ProjectCards(props) {
+const ProjectCards = (props) => {
   return (
     <Card className="project-card-view">
       <Card.Img variant="top" style={{maxHeight: 170}} src={props.imgPath} alt="card-img" />

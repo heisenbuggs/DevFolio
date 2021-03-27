@@ -15,7 +15,7 @@ import gfg from "../../assets/Projects/Gfg.png";
 import youtube from "../../assets/Projects/youtube.png";
 import codehour from "../../assets/Projects/full-logo.png";
 
-function Projects() {
+const Projects = () => {
   return (
     <Animate to="1" from="0" attributeName="opacity">
       <Particles params={particles} className="particle" />

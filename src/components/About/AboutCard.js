@@ -3,7 +3,7 @@ import Card from "react-bootstrap/Card";
 
 import "bootstrap/dist/css/bootstrap.min.css";
 
-function AboutCard() {
+const AboutCard = () => {
   return (
     <Card className="quote-card-view">
       <Card.Body>
