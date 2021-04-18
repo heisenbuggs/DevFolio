@@ -1,9 +1,8 @@
-import React, { useState, useEffect } from "react";
+import React, { useState } from "react";
 import Nav from "react-bootstrap/Nav";
 import Button from "react-bootstrap/Button";
 import "../styles/Navbar.css";
 import "bootstrap/dist/css/bootstrap.min.css";
-import axios from "axios";
 
 const Like = () => {
 
@@ -11,18 +10,6 @@ const Like = () => {
   const [likeCounter, upadteCounter] = useState(0);
   const [btnState, upadteBtn] = useState(true);
   const [likeClass, updateClass] = useState("far fa-heart");
-
-  useEffect(() => {
-    axios
-      .get(uri)
-      .then((res) => {
-        updateLike(res.data.data);
-        upadteBtn(false);
-      })
-      .catch((err) => {
-        console.log(err);
-      });
-  }, []);
 
   function clickHandler() {
     updateClass("far fa-heart animate-like");
@@ -32,19 +19,6 @@ const Like = () => {
     if (likeCounter > 3) {
       upadteBtn(true);
     }
-
-    axios
-      .post(postUri)
-      .then((res) => {
-        console.log(res.data.status);
-      })
-      .catch((err) => {
-        console.log(err);
-      });
-
-    setTimeout(() => {
-      updateClass("far fa-heart");
-    }, 500);
   }
 
   return (
