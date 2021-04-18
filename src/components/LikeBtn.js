@@ -6,8 +6,6 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import axios from "axios";
 
 const Like = () => {
-  const uri = "https://porfolio-backend.vercel.app/likes/getLikes";
-  const postUri = "https://porfolio-backend.vercel.app/likes/updateLikes";
 
   const [numLike, updateLike] = useState(0);
   const [likeCounter, upadteCounter] = useState(0);
