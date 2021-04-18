@@ -7,7 +7,7 @@ import About from "./components/About/About";
 import Projects from "./components/Projects/Projects";
 import Footer from "./components/Footer";
 import Resume from "./components/Resume/Resume";
-import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import { BrowserRouter as Router, HashRouter, Route, Switch } from "react-router-dom";
 import "./styles/Scrollbar.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import ScrollToTop from "./components/ScrollToTop";
@@ -22,7 +22,7 @@ const App = () => {
   }, []);
 
   return (
-    <Router>
+    <HashRouter>
       <Preloader load={load} />
       <div className="App" id={load ? "no-scroll" : "scroll"}>
         <Navbar />
@@ -35,7 +35,7 @@ const App = () => {
         </Switch>
         <Footer />
       </div>
-    </Router>
+    </HashRouter>
   );
 }
 
