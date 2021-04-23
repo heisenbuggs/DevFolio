@@ -27,7 +27,7 @@ const Projects = () => {
           </h1>
           <p style={{ color: "white" }}>
             "What you are, will be shown up in your{" "}
-            <strong className="purple">work</strong>.
+            <strong className="purple">Work</strong>.
           </p>
           <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
             <Col md={4} className="project-card">
@@ -62,7 +62,10 @@ const Projects = () => {
           <h1 className="project-heading">
             My Recent <strong className="purple">Certifications </strong>
           </h1>
-          <p style={{ color: "white" }}>Do give a read to some of my blogs</p>
+          <p style={{ color: "white" }}>
+            "Everyday <strong className="purple">Certify</strong> youself to be a
+            better <strong className="purple">YOU</strong>."
+          </p>
           <Row style={{ justifyContent: "center" }}>
             <Col md={4} className="blog-card">
               <BlogCard
@@ -85,6 +88,6 @@ const Projects = () => {
       </Container>
     </Animate>
   );
-}
+};
 
 export default Projects;

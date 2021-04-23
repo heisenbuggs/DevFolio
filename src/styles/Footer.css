@@ -8,6 +8,9 @@
   text-align: center;
 }
 
+.sect .particle {
+  opacity: 0.5;
+}
 
 .footer-body {
   text-align: center;

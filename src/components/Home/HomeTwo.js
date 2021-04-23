@@ -27,7 +27,7 @@ const HomeTwo = () => {
               My current focus is on&nbsp;
               <i>
                 <b className="purple">
-                  Full - Stack Development and Data Structures and Algorithms .
+                  Full - Stack Development, Data Structures & Algorithms .
                 </b>
               </i>
               <br />
