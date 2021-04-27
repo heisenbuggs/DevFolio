@@ -39,7 +39,7 @@ const HomeTwo = () => {
               <i>
                 <b className="purple">
                   {" "}
-                  ReactJS, NodeJS, React Native and ExpressJS .
+                  React, NodeJS, React Native and ExpressJS .
                 </b>
               </i>
             </p>

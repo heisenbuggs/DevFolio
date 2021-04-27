@@ -9,9 +9,9 @@ const ResumeContent = (props) => {
       {props.institute && <h5>{props.institute}</h5>}
       {props.institute && <h6>{props.date}</h6>}
       {props.content && (
-        <ul>
+        <ul style={{marginLeft: -15}}>
           {props.content.map((value, index) => (
-            <li key={index}> ‣ {value}</li>
+            <li key={index}>&#x2747; {value}</li>
           ))}
         </ul>
       )}

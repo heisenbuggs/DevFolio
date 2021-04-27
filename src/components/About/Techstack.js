@@ -5,7 +5,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 const Techstack = (prop) => {
   return (
     <div>
-      <Col xs={4} md={2} className="tech-icons">
+      <Col xs={3} md={2} className="tech-icons">
         <i className={`${prop.iconName} tech-icon-images`}></i>
       </Col>
     </div>

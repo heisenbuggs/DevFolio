@@ -63,10 +63,18 @@ const Projects = () => {
             My Recent <strong className="purple">Certifications </strong>
           </h1>
           <p style={{ color: "white" }}>
-            "Everyday <strong className="purple">Certify</strong> youself to be a
-            better <strong className="purple">YOU</strong>."
+            "Everyday <strong className="purple">Certify</strong> youself to be
+            a better <strong className="purple">YOU</strong>."
           </p>
           <Row style={{ justifyContent: "center" }}>
+            <Col md={4} className="blog-card">
+              <BlogCard
+                imgPath={gfg}
+                link=""
+                title="Data Structures and Algorithms"
+                site="geeksforgeeks.org"
+              />
+            </Col>
             <Col md={4} className="blog-card">
               <BlogCard
                 imgPath={coursera}
@@ -79,7 +87,7 @@ const Projects = () => {
               <BlogCard
                 imgPath={gfg}
                 link=""
-                title="Data Structures and Algorithms"
+                title="CS Core Subjects"
                 site="geeksforgeeks.org"
               />
             </Col>

@@ -50,16 +50,16 @@ const Platforms = () => {
           </li>
           <li className="social-icons">
             <a
-              href="https://codeforces.com/profile/coderprasuk"
+              href="https://leetcode.com/itzprasuk/"
               target="_blank"
               rel="noreferrer"
               className="icon-colour home-platforms-icons"
-              title="CodeForces"
+              title="LeetCode"
             >
               <Icon
-                icon={codeforcesIcon}
-                height={25}
-                width={25}
+                icon={leetcodeIcon}
+                height={28}
+                width={28}
                 style={{ marginBottom: 6 }}
               />
             </a>
@@ -82,22 +82,6 @@ const Platforms = () => {
           </li>
           <li className="social-icons">
             <a
-              href="https://leetcode.com/itzprasuk/"
-              target="_blank"
-              rel="noreferrer"
-              className="icon-colour home-platforms-icons"
-              title="LeetCode"
-            >
-              <Icon
-                icon={leetcodeIcon}
-                height={28}
-                width={28}
-                style={{ marginBottom: 6 }}
-              />
-            </a>
-          </li>
-          <li className="social-icons">
-            <a
               href="https://auth.geeksforgeeks.org/user/itzprasuk/practice/"
               target="_blank"
               rel="noreferrer"
@@ -108,6 +92,22 @@ const Platforms = () => {
                 icon={geeksforgeeksIcon}
                 height={28}
                 width={28}
+                style={{ marginBottom: 6 }}
+              />
+            </a>
+          </li>
+          <li className="social-icons">
+            <a
+              href="https://codeforces.com/profile/coderprasuk"
+              target="_blank"
+              rel="noreferrer"
+              className="icon-colour home-platforms-icons"
+              title="CodeForces"
+            >
+              <Icon
+                icon={codeforcesIcon}
+                height={25}
+                width={25}
                 style={{ marginBottom: 6 }}
               />
             </a>
