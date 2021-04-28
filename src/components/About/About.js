@@ -56,20 +56,21 @@ const About = () => {
             <Techstack iconName="devicon-jquery-plain-wordmark " />
             <Techstack iconName="devicon-react-original-wordmark" />
             <Techstack iconName="devicon-redux-original" />
-            <Techstack iconName="devicon-nodejs-plain-wordmark" />
-            <Techstack iconName="devicon-express-original-wordmark" />
+            <Techstack iconName="devicon-nodejs-plain" />
+            <Techstack iconName="devicon-express-original" />
             <Techstack iconName="devicon-mongodb-plain-wordmark" />
+            <Techstack iconName="devicon-mysql-plain" />
           </Row>
           <h1 className="project-heading">
             <strong className="purple">Tools</strong> I use
           </h1>
           <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
             <Techstack iconName="devicon-linux-plain" />
+            <Techstack iconName="devicon-git-plain" />
             <Techstack iconName="cib-visual-studio-code" />
-            <Techstack iconName="devicon-git-plain-wordmark" />
+            <Techstack iconName="devicon-github-original" />
             <Techstack iconName="cib-postman" />
-            <Techstack iconName="devicon-firebase-plain-wordmark" />
-            <Techstack iconName="devicon-heroku-plain-wordmark" />
+            <Techstack iconName="devicon-firebase-plain" />
           </Row>
           <Github />
         </Container>
