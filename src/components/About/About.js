@@ -50,27 +50,71 @@ const About = () => {
           <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
             <Techstack iconName="devicon-cplusplus-line" />
             <Techstack iconName="devicon-javascript-plain" />
-            <Techstack iconName="devicon-html5-plain-wordmark" />
-            <Techstack iconName="devicon-css3-plain-wordmark" />
-            <Techstack iconName="devicon-bootstrap-plain-wordmark" />
-            <Techstack iconName="devicon-jquery-plain-wordmark " />
-            <Techstack iconName="devicon-react-original-wordmark" />
+            <Techstack iconName="devicon-typescript-plain" />
+            <Techstack
+              iconName="devicon-html5-plain"
+              hoverIcon="devicon-html5-plain-wordmark"
+            />
+            <Techstack
+              iconName="devicon-css3-plain"
+              hoverIcon="devicon-css3-plain-wordmark"
+            />
+            <Techstack
+              iconName="devicon-bootstrap-plain"
+              hoverIcon="devicon-bootstrap-plain-wordmark"
+            />
+            <Techstack
+              iconName="devicon-jquery-plain"
+              hoverIcon="devicon-jquery-plain-wordmark"
+            />
+            <Techstack
+              iconName="devicon-react-original"
+              hoverIcon="devicon-react-original-wordmark"
+            />
             <Techstack iconName="devicon-redux-original" />
-            <Techstack iconName="devicon-nodejs-plain" />
-            <Techstack iconName="devicon-express-original" />
-            <Techstack iconName="devicon-mongodb-plain-wordmark" />
-            <Techstack iconName="devicon-mysql-plain" />
+            <Techstack
+              iconName="devicon-nodejs-plain"
+              hoverIcon="devicon-nodejs-plain-wordmark"
+            />
+            <Techstack
+              iconName="devicon-express-original"
+              hoverIcon="devicon-express-original-wordmark"
+            />
+            <Techstack
+              iconName="devicon-mongodb-plain"
+              hoverIcon="devicon-mongodb-plain-wordmark"
+            />
+            <Techstack
+              iconName="devicon-mysql-plain"
+              hoverIcon="devicon-mysql-plain-wordmark"
+            />
           </Row>
           <h1 className="project-heading">
             <strong className="purple">Tools</strong> I use
           </h1>
           <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
-            <Techstack iconName="devicon-linux-plain" />
-            <Techstack iconName="devicon-git-plain" />
+            <Techstack
+              iconName="devicon-ubuntu-plain"
+              hoverIcon="devicon-ubuntu-plain-wordmark"
+            />
+            <Techstack
+              iconName="devicon-git-plain"
+              hoverIcon="devicon-git-plain-wordmark"
+            />
             <Techstack iconName="cib-visual-studio-code" />
-            <Techstack iconName="devicon-github-original" />
+            <Techstack
+              iconName="devicon-github-original"
+              hoverIcon="devicon-github-original-wordmark"
+            />
             <Techstack iconName="cib-postman" />
-            <Techstack iconName="devicon-firebase-plain" />
+            <Techstack
+              iconName="devicon-firebase-plain"
+              hoverIcon="devicon-firebase-plain-wordmark"
+            />
+            {/* <Techstack
+              iconName="devicon-slack-plain"
+              hoverIcon="devicon-slack-plain-wordmark"
+            /> */}
           </Row>
           <Github />
         </Container>

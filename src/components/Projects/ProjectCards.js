@@ -6,7 +6,12 @@ import "bootstrap/dist/css/bootstrap.min.css";
 const ProjectCards = (props) => {
   return (
     <Card className="project-card-view">
-      <Card.Img variant="top" style={{maxHeight: 170}} src={props.imgPath} alt="card-img" />
+      <Card.Img
+        variant="top"
+        style={{ maxHeight: 170 }}
+        src={props.imgPath}
+        alt="card-img"
+      />
       <Card.Body>
         <Card.Title>
           <strong>{props.title}</strong>
@@ -23,5 +28,5 @@ const ProjectCards = (props) => {
       </Card.Body>
     </Card>
   );
-}
+};
 export default ProjectCards;

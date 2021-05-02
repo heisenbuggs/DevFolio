@@ -14,6 +14,7 @@ import coursera from "../../assets/Projects/Coursera.png";
 import gfg from "../../assets/Projects/Gfg.png";
 import youtube from "../../assets/Projects/youtube.png";
 import codehour from "../../assets/Projects/full-logo.png";
+import editor from "../../assets/Projects/codeditor.jpg";
 
 const Projects = () => {
   return (
@@ -35,8 +36,17 @@ const Projects = () => {
                 imgPath={graph}
                 isBlog={false}
                 title="Graph Visualizer"
-                description="Helps you to visualize your Graph with ease and make your learnings faster. Developed using React, Typescript and Bootstrap."
+                description="Helps you to visualize your Graph with ease and make your learnings faster on a package using Vis-React. Developed using React, Typescript and Bootstrap."
                 link="https://github.com/itzprasuk/Graph-Visualizer"
+              />
+            </Col>
+
+            <Col md={4} className="project-card">
+              <ProjectCard
+                imgPath={editor}
+                isBlog={false}
+                title="Code.io"
+                description="With this online code editor, you can edit ReadMe or HTML, CSS and JavaScript code, and live preview of site instantly. Developed using React, Redux, CSS, JavaScript."
               />
             </Col>
 
@@ -47,15 +57,6 @@ const Projects = () => {
                 title="CodeHour Backend"
                 description="About API Powering CodeHour Web and Mobile Application providing API for online competitive coding contests. Developed using NodeJS, ExpressJS and MongoDB."
                 link="https://github.com/itzprasuk/CodeHour-Backend"
-              />
-            </Col>
-
-            <Col md={4} className="project-card">
-              <ProjectCard
-                imgPath={youtube}
-                isBlog={false}
-                title="TrailShow"
-                description="Netflix based website to view trailers of latest movies and web-shows. Developed using React, Bootstrap and React-YouTube."
               />
             </Col>
           </Row>
@@ -70,15 +71,15 @@ const Projects = () => {
             <Col md={4} className="blog-card">
               <BlogCard
                 imgPath={gfg}
-                link=""
-                title="Data Structures and Algorithms"
+                link="https://media.geeksforgeeks.org/courses/certificates/d4bca293d97e25e1d85c331160782fc4.pdf"
+                title="Data Structures Algorithms"
                 site="geeksforgeeks.org"
               />
             </Col>
             <Col md={4} className="blog-card">
               <BlogCard
                 imgPath={coursera}
-                link=""
+                link="https://www.coursera.org/account/accomplishments/specialization/certificate/EPAR6V5QWCPX"
                 title="Full-Stack Development with React"
                 site="coursera.org"
               />
@@ -86,7 +87,7 @@ const Projects = () => {
             <Col md={4} className="blog-card">
               <BlogCard
                 imgPath={gfg}
-                link=""
+                link="https://media.geeksforgeeks.org/courses/certificates/573075dc367c62b733ca0069b1dcaba6.pdf"
                 title="CS Core Subjects"
                 site="geeksforgeeks.org"
               />
