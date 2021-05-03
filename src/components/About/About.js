@@ -52,6 +52,10 @@ const About = () => {
             <Techstack iconName="devicon-javascript-plain" />
             <Techstack iconName="devicon-typescript-plain" />
             <Techstack
+              iconName="devicon-python-plain"
+              hoverIcon="devicon-python-plain-wordmark"
+            />
+            <Techstack
               iconName="devicon-html5-plain"
               hoverIcon="devicon-html5-plain-wordmark"
             />
@@ -72,6 +76,10 @@ const About = () => {
               hoverIcon="devicon-react-original-wordmark"
             />
             <Techstack iconName="devicon-redux-original" />
+            <Techstack
+              iconName="devicon-django-plain"
+              hoverIcon="devicon-django-plain-wordmark"
+            />
             <Techstack
               iconName="devicon-nodejs-plain"
               hoverIcon="devicon-nodejs-plain-wordmark"

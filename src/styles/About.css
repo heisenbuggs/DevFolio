@@ -22,7 +22,7 @@
 
 @media (max-width: 767px) {
   .tech-icons {
-    margin: 10px !important;
+    margin: 3px !important;
   }
 }
 
@@ -50,6 +50,6 @@
 
 @media (max-width: 767px) {
   .about-img {
-    padding-top: 0 !important;
+    padding-top: 0;
   }
 }

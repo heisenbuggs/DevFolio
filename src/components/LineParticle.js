@@ -13,11 +13,11 @@ const particles = {
     shape: {
       type: "circle",
       stroke: {
-        width: 3,
+        width: 1,
         color: "#000000",
       },
       polygon: {
-        nb_sides: 5,
+        nb_sides: 4,
       },
       image: {
         src: "img/github.svg",
@@ -42,14 +42,14 @@ const particles = {
         enable: false,
         speed: 40,
         size_min: 0.1,
-        sync: false,
+        sync: true,
       },
     },
     line_linked: {
       enable: true,
       distance: 150,
-      color: "#ffffff",
-      opacity: 0.4,
+      color: "c8c8c8",
+      opacity: 0.3,
       width: 1,
     },
     move: {

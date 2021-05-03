@@ -20,14 +20,14 @@ const HomeTwo = () => {
               <br />
               Fluent in Languages like
               <i>
-                <b className="purple"> C++, Javascript and TypeScript . </b>
+                <b className="purple"> C++, Javascript, TypeScript and Python. </b>
               </i>
               <br />
               <br />
               My current focus is on&nbsp;
               <i>
                 <b className="purple">
-                  Full - Stack Development, Data Structures & Algorithms .
+                  Full - Stack Development, Data Structures and Algorithms .
                 </b>
               </i>
               <br />
@@ -39,7 +39,7 @@ const HomeTwo = () => {
               <i>
                 <b className="purple">
                   {" "}
-                  React, NodeJS, React Native and ExpressJS .
+                  React, Django, ExpressJS and React Native .
                 </b>
               </i>
             </p>
