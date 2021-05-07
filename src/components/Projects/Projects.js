@@ -12,7 +12,6 @@ import particles from "../LineParticle";
 import graph from "../../assets/Projects/graph.png";
 import coursera from "../../assets/Projects/Coursera.png";
 import gfg from "../../assets/Projects/Gfg.png";
-import youtube from "../../assets/Projects/youtube.png";
 import codehour from "../../assets/Projects/full-logo.png";
 import editor from "../../assets/Projects/codeditor.jpg";
 
@@ -28,7 +27,7 @@ const Projects = () => {
           </h1>
           <p style={{ color: "white" }}>
             "What you are, will be shown up in your{" "}
-            <strong className="purple">Work</strong>.
+            <strong className="purple">Work</strong>."
           </p>
           <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
             <Col md={4} className="project-card">
@@ -47,6 +46,7 @@ const Projects = () => {
                 isBlog={false}
                 title="Code.io"
                 description="With this online code editor, you can edit ReadMe or HTML, CSS and JavaScript code, and live preview of site instantly. Developed using React, Redux, CSS, JavaScript."
+                link="https://code-io.netlify.app/"
               />
             </Col>
 

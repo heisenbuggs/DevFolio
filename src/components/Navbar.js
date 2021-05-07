@@ -60,7 +60,7 @@ const NavBar = () => {
                 to="/about"
                 onClick={() => updateExpanded(false)}
               >
-                <i className="far fa-user"></i> About
+                <i className="fas fa-user-tie"></i> About
               </NavLink>
             </NavItem>
             <NavItem>
@@ -69,7 +69,7 @@ const NavBar = () => {
                 to="/project"
                 onClick={() => updateExpanded(false)}
               >
-                <i className="fas fa-code-branch"></i> Projects
+                <i className="fas fa-code"></i> Projects
               </NavLink>
             </NavItem>
             <NavItem>
@@ -78,7 +78,7 @@ const NavBar = () => {
                 to="/resume"
                 onClick={() => updateExpanded(false)}
               >
-                <i className="far fa-file-alt"></i> Resume
+                <i className="fas fa-file-pdf"></i> Resume
               </NavLink>
             </NavItem>
 
