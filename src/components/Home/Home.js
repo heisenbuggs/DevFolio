@@ -20,7 +20,7 @@ const Home = () => {
           <Particle />
           <Container className="home-content">
             <Row>
-              <Col md={7} className="home-header">
+              <Col lg={7} className="home-header">
                 <h1 style={{ paddingBottom: 15 }} className="heading">
                   Hello There !!
                 </h1>
@@ -32,12 +32,12 @@ const Home = () => {
                 </h1>
 
                 <Container style={{ padding: 50, textAlign: "left" }}>
-                  <Type />
+                  <h6><Type /></h6>
                 </Container>
                 <Platforms />
               </Col>
 
-              <Col md={5} style={{ paddingBottom: 20 }}>
+              <Col lg={5} style={{ paddingBottom: 20 }}>
                 <img src={homeLogo} alt="home pic" className="img-fluid" />
               </Col>
             </Row>

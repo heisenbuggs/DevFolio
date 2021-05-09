@@ -60,7 +60,7 @@ const NavBar = () => {
                 to="/about"
                 onClick={() => updateExpanded(false)}
               >
-                <i className="fas fa-user-tie"></i> About
+                <i className="fas fa-user"></i> About
               </NavLink>
             </NavItem>
             <NavItem>
@@ -69,7 +69,7 @@ const NavBar = () => {
                 to="/project"
                 onClick={() => updateExpanded(false)}
               >
-                <i className="fas fa-code"></i> Projects
+                <i className="fas fa-code-branch"></i> Projects
               </NavLink>
             </NavItem>
             <NavItem>

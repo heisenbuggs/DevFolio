@@ -30,7 +30,7 @@ const particles = {
       random: true,
       anim: {
         enable: false,
-        speed: 1,
+        speed: 0,
         opacity_min: 0.1,
         sync: false,
       },
@@ -40,7 +40,7 @@ const particles = {
       random: true,
       anim: {
         enable: false,
-        speed: 40,
+        speed: 0,
         size_min: 0.1,
         sync: true,
       },
@@ -54,7 +54,7 @@ const particles = {
     },
     move: {
       enable: true,
-      speed: 2,
+      speed: 1.5,
       direction: "none",
       random: false,
       straight: false,
@@ -84,12 +84,12 @@ const particles = {
       grab: {
         distance: 150,
         line_linked: {
-          opacity: 0.3,
+          opacity: 0.7,
         },
       },
       bubble: {
         distance: 400,
-        size: 40,
+        size: 10,
         duration: 2,
         opacity: 8,
         speed: 3,
