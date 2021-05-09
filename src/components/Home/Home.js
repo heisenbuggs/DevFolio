@@ -31,7 +31,7 @@ const Home = () => {
                   <strong className="main-name surname">{" JAIN"}</strong>
                 </h1>
 
-                <Container style={{ padding: 50, textAlign: "left" }}>
+                <Container className="typeContainer">
                   <h6><Type /></h6>
                 </Container>
                 <Platforms />

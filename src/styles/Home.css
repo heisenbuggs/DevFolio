@@ -72,15 +72,14 @@
   }
 }
 
+.typeContainer {
+  padding: 50px 0 50px 50px;
+  text-align: left;
+}
+
 
 @media (max-width: 552px) {
   .home-platforms-social-links li:nth-child(7) {
-    visibility: hidden;
-  }
-}
-
-@media (max-width: 494px) {
-  .home-platforms-social-links li:nth-child(6) {
     visibility: hidden;
   }
 }

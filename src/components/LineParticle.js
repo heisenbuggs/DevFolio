@@ -4,7 +4,7 @@ const particles = {
       value: 130,
       density: {
         enable: true,
-        value_area: 800,
+        value_area: 900,
       },
     },
     color: {
@@ -14,7 +14,7 @@ const particles = {
       type: "circle",
       stroke: {
         width: 1,
-        color: "#000000",
+        color: "#000",
       },
       polygon: {
         nb_sides: 4,
@@ -26,7 +26,7 @@ const particles = {
       },
     },
     opacity: {
-      value: 0.1,
+      value: 0.3,
       random: true,
       anim: {
         enable: false,
@@ -36,7 +36,7 @@ const particles = {
       },
     },
     size: {
-      value: 4,
+      value: 2,
       random: true,
       anim: {
         enable: false,
@@ -49,12 +49,12 @@ const particles = {
       enable: true,
       distance: 150,
       color: "c8c8c8",
-      opacity: 0.3,
+      opacity: 0.5,
       width: 1,
     },
     move: {
       enable: true,
-      speed: 1.5,
+      speed: 1,
       direction: "none",
       random: false,
       straight: false,

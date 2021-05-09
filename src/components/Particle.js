@@ -10,7 +10,7 @@ const Particle = () => {
             value: 160,
             density: {
               enable: true,
-              value_area: 1500,
+              value_area: 400,
             },
           },
           line_linked: {
@@ -28,7 +28,7 @@ const Particle = () => {
             anim: {
               enable: true,
               speed: 1,
-              opacity_min: 0.05,
+              opacity_min: 0.5,
             },
           },
         },
