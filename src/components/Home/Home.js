@@ -10,6 +10,7 @@ import particles from "../LineParticle";
 import HomeTwo from "./HomeTwo";
 import Type from "./Type";
 import Platforms from "./Platforms";
+import Greeting from "./Greeting";
 
 const Home = () => {
   return (
@@ -21,9 +22,7 @@ const Home = () => {
           <Container className="home-content">
             <Row>
               <Col lg={7} className="home-header">
-                <h1 style={{ paddingBottom: 15 }} className="heading">
-                  Hello There !!
-                </h1>
+                <Greeting />
 
                 <h1 className="heading-name">
                   I'm
