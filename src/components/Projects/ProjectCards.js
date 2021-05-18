@@ -22,7 +22,7 @@ const ProjectCards = (props) => {
         <Card.Footer>
           <Button variant="primary" href={props.link} target="_blank">
             <i className="cil-external-link">&nbsp;</i>
-            {props.isBlog ? "View Blog" : "View Project"}
+            {"View Project"}
           </Button>
         </Card.Footer>
       </Card.Body>

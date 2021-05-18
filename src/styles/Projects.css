@@ -50,6 +50,8 @@
 
 .blog-link:hover {
   cursor: pointer;
+  text-decoration: none;
+  
 }
 
 .blog-card-view:hover {

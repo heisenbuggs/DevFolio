@@ -56,6 +56,30 @@ const About = () => {
               hoverIcon="devicon-python-plain-wordmark"
             />
             <Techstack
+              iconName="devicon-dart-plain"
+              hoverIcon="devicon-dart-plain-wordmark"
+            />
+          </Row>
+          <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
+            <Techstack
+              iconName="devicon-react-original"
+              hoverIcon="devicon-react-original-wordmark"
+            />
+            <Techstack iconName="devicon-redux-original" />
+            <Techstack
+              iconName="devicon-nodejs-plain"
+              hoverIcon="devicon-nodejs-plain-wordmark"
+            />
+            <Techstack
+              iconName="devicon-express-original"
+              hoverIcon="devicon-express-original-wordmark"
+            />
+            <Techstack
+              iconName="devicon-flutter-plain"
+              hoverIcon="devicon-flutter-plain colored"
+            />
+            <Techstack iconName="devicon-django-plain" />
+            <Techstack
               iconName="devicon-html5-plain"
               hoverIcon="devicon-html5-plain-wordmark"
             />
@@ -70,23 +94,6 @@ const About = () => {
             <Techstack
               iconName="devicon-jquery-plain"
               hoverIcon="devicon-jquery-plain-wordmark"
-            />
-            <Techstack
-              iconName="devicon-react-original"
-              hoverIcon="devicon-react-original-wordmark"
-            />
-            <Techstack iconName="devicon-redux-original" />
-            <Techstack
-              iconName="devicon-django-plain"
-              hoverIcon="devicon-django-plain-wordmark"
-            />
-            <Techstack
-              iconName="devicon-nodejs-plain"
-              hoverIcon="devicon-nodejs-plain-wordmark"
-            />
-            <Techstack
-              iconName="devicon-express-original"
-              hoverIcon="devicon-express-original-wordmark"
             />
             <Techstack
               iconName="devicon-mongodb-plain"
