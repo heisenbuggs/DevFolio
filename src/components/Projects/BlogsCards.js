@@ -9,12 +9,12 @@ const BlogsCards = (props) => {
       href={props.link}
       target="_blank"
       rel="noreferrer"
-      style={{ fontSize: "1.2em" }}
+      style={{ fontSize: "1.0rem" }}
     >
       <Card className="blog-card-view">
         <Card.Img variant="top" src={props.imgPath} className="blog-img" />
         <Card.Footer>
-          <i className="fas fa-external-link-square-alt">&nbsp;</i>
+          {/* <i className="fas fa-external-link-square-alt">&nbsp;</i> */}
           {props.title}
 
           <p style={{ marginBlockEnd: "0em" }}>{props.site}</p>

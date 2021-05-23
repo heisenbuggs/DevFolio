@@ -14,6 +14,7 @@ import coursera from "../../assets/Projects/Coursera.png";
 import gfg from "../../assets/Projects/Gfg.png";
 import codehour from "../../assets/Projects/full-logo.png";
 import editor from "../../assets/Projects/codeditor.jpg";
+import linkedin from "../../assets/Projects/linkedin.jpg";
 
 const Projects = () => {
   return (
@@ -70,6 +71,14 @@ const Projects = () => {
           <Row style={{ justifyContent: "center" }}>
             <Col md={4} className="blog-card">
               <BlogCard
+                imgPath={linkedin}
+                link="https://media.geeksforgeeks.org/courses/certificates/573075dc367c62b733ca0069b1dcaba6.pdf"
+                title="Become a Django Developer"
+                site="linked.com"
+              />
+            </Col>
+            <Col md={4} className="blog-card">
+              <BlogCard
                 imgPath={gfg}
                 link="https://media.geeksforgeeks.org/courses/certificates/d4bca293d97e25e1d85c331160782fc4.pdf"
                 title="Data Structures Algorithms"
@@ -84,14 +93,14 @@ const Projects = () => {
                 site="coursera.org"
               />
             </Col>
-            <Col md={4} className="blog-card">
+            {/* <Col md={4} className="blog-card">
               <BlogCard
                 imgPath={gfg}
                 link="https://media.geeksforgeeks.org/courses/certificates/573075dc367c62b733ca0069b1dcaba6.pdf"
                 title="CS Core Subjects"
                 site="geeksforgeeks.org"
               />
-            </Col>
+            </Col> */}
           </Row>
         </Container>
       </Container>
