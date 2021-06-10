@@ -27,7 +27,7 @@ const Home = () => {
                 <h1 className="heading-name">
                   I'm
                   <strong className="main-name">{" PRASUK"}</strong>
-                  <strong className="main-name surname">{" JAIN"}</strong>
+                  <strong className="main-name surname">{" JAIN."}</strong>
                 </h1>
 
                 <Container className="typeContainer">
