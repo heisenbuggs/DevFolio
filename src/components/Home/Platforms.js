@@ -96,7 +96,7 @@ const Platforms = () => {
               />
             </a>
           </li>
-          <li className="social-icons">
+          {/* <li className="social-icons">
             <a
               href="https://codeforces.com/profile/coderprasuk"
               target="_blank"
@@ -111,7 +111,7 @@ const Platforms = () => {
                 style={{ marginBottom: 6 }}
               />
             </a>
-          </li>
+          </li> */}
           <li className="social-icons">
             <a
               href="https://www.hackerrank.com/meprasuk?hr_r=1 "
