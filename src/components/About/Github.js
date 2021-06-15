@@ -7,10 +7,10 @@ const Github = () => {
   const colourTheme = {
     background: "transparent",
     text: "#ffffff",
-    grade4: "#8400b8",
-    grade3: "#b22ff4",
-    grade2: "#b265f6",
-    grade1: "#c084f5",
+    grade4: "#8115b9",
+    grade3: "#9a19dc",
+    grade2: "#b246ea",
+    grade1: "#d292f3",
     grade0: "#ecd9fc",
   };
   
