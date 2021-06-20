@@ -24,7 +24,7 @@ const Greeting = () => {
   }, []);
 
   return (
-    <h1 style={{ paddingBottom: 15 }} className="heading">
+    <h1 style={{ paddingBottom: 15 }} className='heading'>
       <TextTransition
         text={TEXTS[index % TEXTS.length]}
         springConfig={presets.gentle}

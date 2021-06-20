@@ -8,7 +8,7 @@ const Type = () => {
         strings: [
           "Full - Stack Developer",
           "Open Source Contributor",
-          "Competitive Programmer"
+          "Competitive Programmer",
         ],
         autoStart: true,
         loop: true,
@@ -16,6 +16,6 @@ const Type = () => {
       }}
     />
   );
-}
+};
 
 export default Type;

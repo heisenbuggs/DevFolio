@@ -6,9 +6,11 @@
   height: 100%;
   z-index: 999999;
   background-color: #0c0513;
-  background-image: url(../assets/pre.svg);
   background-repeat: no-repeat;
   background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 #preloader-none {

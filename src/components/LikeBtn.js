@@ -5,7 +5,6 @@ import "../styles/Navbar.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 
 const Like = () => {
-
   const [numLike, updateLike] = useState(0);
   const [likeCounter, upadteCounter] = useState(0);
   const [btnState, upadteBtn] = useState(true);
@@ -22,12 +21,12 @@ const Like = () => {
   }
 
   return (
-    <Nav.Item className="like-item">
-      <Button className="like-btn" onClick={clickHandler} disabled={btnState}>
+    <Nav.Item className='like-item'>
+      <Button className='like-btn' onClick={clickHandler} disabled={btnState}>
         <i className={likeClass} style={{ color: "#fb6fcd" }}></i> {numLike}
       </Button>
     </Nav.Item>
   );
-}
+};
 
 export default Like;

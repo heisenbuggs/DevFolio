@@ -13,14 +13,14 @@ const Github = () => {
     grade1: "#d292f3",
     grade0: "#ecd9fc",
   };
-  
+
   return (
     <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
-      <h1 className="project-heading" style={{ paddingBottom: "20px" }}>
-        Days I <strong className="purple">Code</strong>
+      <h1 className='project-heading' style={{ paddingBottom: "20px" }}>
+        Days I <strong className='purple'>Code</strong>
       </h1>
       <GitHubCalendar
-        username="itzprasuk"
+        username='itzprasuk'
         blockSize={15}
         blockMargin={5}
         theme={colourTheme}
@@ -28,6 +28,6 @@ const Github = () => {
       />
     </Row>
   );
-}
+};
 
 export default Github;
