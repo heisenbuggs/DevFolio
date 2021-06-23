@@ -3,7 +3,6 @@ import { Col, Container } from "react-bootstrap";
 import "../../styles/Home.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import { Icon } from "@iconify/react";
-import codeforcesIcon from "@iconify-icons/simple-icons/codeforces";
 import codechefIcon from "@iconify-icons/simple-icons/codechef";
 import githubFill from "@iconify-icons/akar-icons/github-fill";
 import linkedinFill from "@iconify-icons/akar-icons/linkedin-fill";

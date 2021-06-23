@@ -12,7 +12,6 @@ import particles from "../LineParticle";
 import graph from "../../assets/Projects/graph.png";
 import coursera from "../../assets/Projects/Coursera.png";
 import gfg from "../../assets/Projects/Gfg.png";
-import codehour from "../../assets/Projects/full-logo.png";
 import editor from "../../assets/Projects/codeditor.jpg";
 import linkedin from "../../assets/Projects/linkedin.jpg";
 import quizify from "../../assets/Projects/quizify.png";

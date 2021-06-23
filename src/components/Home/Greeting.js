@@ -8,7 +8,7 @@ const TEXTS = [
   "Hola!!",
   "Ciao!!",
   "Bonjour!!",
-  "Hallo!!",
+  "Здравейте!!",
   "வணக்கம்!!",
 ];
 
