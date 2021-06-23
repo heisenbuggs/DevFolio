@@ -14,23 +14,23 @@ import Greeting from "./Greeting";
 
 const Home = () => {
   return (
-    <section className='sect'>
-      <Animate to='1' from='0' attributeName='opacity'>
-        <Particles params={particles} className='particle' />
-        <Container fluid className='home-section'>
+    <section className="sect">
+      <Animate to="1" from="0" attributeName="opacity">
+        <Particles params={particles} className="particle" />
+        <Container fluid className="home-section">
           <Particle />
-          <Container className='home-content'>
+          <Container className="home-content">
             <Row>
-              <Col lg={7} className='home-header'>
+              <Col lg={7} className="home-header">
                 <Greeting />
 
-                <h1 className='heading-name'>
+                <h1 className="heading-name">
                   I'm
-                  <strong className='main-name'>{" PRASUK"}</strong>
-                  <strong className='main-name surname'>{" JAIN."}</strong>
+                  <strong className="main-name">{" PRASUK"}</strong>
+                  <strong className="main-name surname">{" JAIN."}</strong>
                 </h1>
 
-                <Container className='typeContainer'>
+                <Container className="typeContainer">
                   <h6>
                     <Type />
                   </h6>
@@ -39,7 +39,7 @@ const Home = () => {
               </Col>
 
               <Col lg={5} style={{ paddingBottom: 20 }}>
-                <img src={homeLogo} alt='home pic' className='img-fluid' />
+                <img src={homeLogo} alt="home pic" className="img-fluid" />
               </Col>
             </Row>
           </Container>

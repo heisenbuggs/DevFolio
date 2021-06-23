@@ -13,13 +13,13 @@ const Pre = (props) => {
   };
   return (
     <div id={loader ? "preloader" : "preloader-none"}>
-      <div className='loader'>
+      <div className="loader">
         {loader && (
           <Loader
-            type='Grid'
+            type="Grid"
             height={120}
             width={120}
-            color='#c770f0'
+            color="#c770f0"
             timeout={3000}
           />
         )}

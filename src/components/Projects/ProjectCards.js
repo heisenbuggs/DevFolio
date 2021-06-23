@@ -5,12 +5,12 @@ import "bootstrap/dist/css/bootstrap.min.css";
 
 const ProjectCards = (props) => {
   return (
-    <Card className='project-card-view'>
+    <Card className="project-card-view">
       <Card.Img
-        variant='top'
+        variant="top"
         style={{ maxHeight: 170 }}
         src={props.imgPath}
-        alt='card-img'
+        alt="card-img"
       />
       <Card.Body>
         <Card.Title>
@@ -20,8 +20,8 @@ const ProjectCards = (props) => {
           {props.description}
         </Card.Text>
         <Card.Footer>
-          <Button variant='primary' href={props.link} target='_blank'>
-            <i className='cil-external-link'>&nbsp;</i>
+          <Button variant="primary" href={props.link} target="_blank">
+            <i className="cil-external-link">&nbsp;</i>
             {"View Project"}
           </Button>
         </Card.Footer>

@@ -9,7 +9,7 @@ const Techstack = (prop) => {
       <Col
         xs={3}
         md={2}
-        className='tech-icons'
+        className="tech-icons"
         onMouseEnter={() => setHover(true)}
         onMouseLeave={() => setHover(false)}
       >

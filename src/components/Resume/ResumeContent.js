@@ -9,7 +9,7 @@ const ResumeContent = (props) => {
       {props.institute && <h5>{props.institute}</h5>}
       {props.institute && <h6>{props.date}</h6>}
       {props.content && (
-        <ul style={{marginLeft: -15}}>
+        <ul style={{ marginLeft: -15 }}>
           {props.content.map((value, index) => (
             <li key={index}>&#x2747; {value}</li>
           ))}
@@ -17,6 +17,6 @@ const ResumeContent = (props) => {
       )}
     </div>
   );
-}
+};
 
 export default ResumeContent;
