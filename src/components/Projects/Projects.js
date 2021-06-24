@@ -59,16 +59,6 @@ const Projects = () => {
                 link="https://code-io.netlify.app/"
               />
             </Col>
-
-            {/* <Col md={4} className="project-card">
-              <ProjectCard
-                imgPath={codehour}
-                isBlog={false}
-                title="CodeHour Backend"
-                description="About API Powering CodeHour Web and Mobile Application providing API for online competitive coding contests. Developed using NodeJS, ExpressJS and MongoDB."
-                link="https://github.com/itzprasuk/CodeHour-Backend"
-              />
-            </Col> */}
           </Row>
           <h1 className="project-heading">
             My Recent <strong className="purple">Certifications </strong>
@@ -102,14 +92,6 @@ const Projects = () => {
                 site="coursera.org"
               />
             </Col>
-            {/* <Col md={4} className="blog-card">
-              <BlogCard
-                imgPath={gfg}
-                link="https://media.geeksforgeeks.org/courses/certificates/573075dc367c62b733ca0069b1dcaba6.pdf"
-                title="CS Core Subjects"
-                site="geeksforgeeks.org"
-              />
-            </Col> */}
           </Row>
         </Container>
       </Container>

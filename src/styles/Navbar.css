@@ -42,7 +42,7 @@
 
 @media (max-width: 806px) {
     .navbar {
-        padding: 0rem 2rem 0.25rem 2rem !important;
+        padding: 0rem 2rem 0.5rem 2rem !important;
         font-size: 1.4rem !important;
         background-color: #181a27 !important;
     }
@@ -54,6 +54,10 @@
     .brand {
         margin-top: 10px;
         color: #d985fa;
+    }
+
+    .nav-link {
+        padding: 0.7rem 1rem !important;
     }
 }
 
@@ -75,13 +79,6 @@
 .nav-link {
     padding: 0.8rem 1rem !important;
 }
-
-@media (max-width: 806px) {
-    .nav-link {
-        padding: 0.7rem 1rem !important;
-    }
-}
-
 
 .navbar-nav .nav-item {
     position: relative;

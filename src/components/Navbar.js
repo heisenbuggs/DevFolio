@@ -11,10 +11,15 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import "../styles/Navbar.css";
 import "../styles/HamBurger.css";
 import Hamburger from "./Hamburger";
+import audio from '../assets/tick.mp3';
 
 const NavBar = () => {
   const [expand, updateExpanded] = useState(false);
   const [navColour, updateNavbar] = useState(false);
+
+  const start = () => {
+    new Audio(audio).play();
+  }
 
   const scrollHandler = () => {
     if (window.scrollY >= 70) {
@@ -43,9 +48,10 @@ const NavBar = () => {
           aria-controls="responsive-navbar-nav"
           onClick={() => {
             updateExpanded(!expand);
+            start();
           }}
         >
-          <Hamburger expand={expand} />
+          <Hamburger expand={expand} onClick={start}/>
         </NavbarToggle>
         <NavbarCollapse id="responsive-navbar-nav">
           <Nav className="ml-auto" defaultActiveKey="#home">

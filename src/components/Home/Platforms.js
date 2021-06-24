@@ -95,22 +95,6 @@ const Platforms = () => {
               />
             </a>
           </li>
-          {/* <li className="social-icons">
-            <a
-              href="https://codeforces.com/profile/coderprasuk"
-              target="_blank"
-              rel="noreferrer"
-              className="icon-colour home-platforms-icons"
-              title="CodeForces"
-            >
-              <Icon
-                icon={codeforcesIcon}
-                height={25}
-                width={25}
-                style={{ marginBottom: 6 }}
-              />
-            </a>
-          </li> */}
           <li className="social-icons">
             <a
               href="https://www.hackerrank.com/meprasuk?hr_r=1 "
