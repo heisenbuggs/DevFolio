@@ -10,8 +10,13 @@ import Github from "./Github";
 import Techstack from "./Techstack";
 import Aboutcard from "./AboutCard";
 import laptopImg from "../../assets/about.png";
+import data from "./TechList.json";
 
 const About = () => {
+  var lang = data.languages,
+    tech = data.tech,
+    tools = data.tools;
+
   return (
     <Animate to="1" from="0" attributeName="opacity">
       <Particles params={particles} className="particle" />
@@ -48,82 +53,34 @@ const About = () => {
             <strong className="purple">Skills</strong> does."
           </p>
           <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
-            <Techstack iconName="devicon-cplusplus-line" />
-            <Techstack iconName="devicon-javascript-plain" />
-            <Techstack iconName="devicon-typescript-plain" />
-            <Techstack
-              iconName="devicon-python-plain"
-              hoverIcon="devicon-python-plain-wordmark"
-            />
-            <Techstack
-              iconName="devicon-html5-plain"
-              hoverIcon="devicon-html5-plain-wordmark"
-            />
-            <Techstack
-              iconName="devicon-css3-plain"
-              hoverIcon="devicon-css3-plain-wordmark"
-            />
+            {lang.map((item) => (
+              <Techstack
+                key={item.name}
+                iconName={item.iconName}
+                hoverIcon={item.hoverIcon}
+              />
+            ))}
           </Row>
           <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
-            <Techstack
-              iconName="devicon-react-original"
-              hoverIcon="devicon-react-original-wordmark"
-            />
-            <Techstack iconName="devicon-redux-original" />
-            <Techstack
-              iconName="devicon-nodejs-plain"
-              hoverIcon="devicon-nodejs-plain-wordmark"
-            />
-            <Techstack
-              iconName="devicon-express-original"
-              hoverIcon="devicon-express-original-wordmark"
-            />
-            <Techstack
-              iconName="devicon-django-plain"
-              hoverIcon="devicon-django-line"
-            />
-            <Techstack
-              iconName="devicon-bootstrap-plain"
-              hoverIcon="devicon-bootstrap-plain-wordmark"
-            />
-            <Techstack
-              iconName="devicon-jquery-plain"
-              hoverIcon="devicon-jquery-plain-wordmark"
-            />
-            <Techstack
-              iconName="devicon-mongodb-plain"
-              hoverIcon="devicon-mongodb-plain-wordmark"
-            />
-            <Techstack
-              iconName="devicon-mysql-plain"
-              hoverIcon="devicon-mysql-plain-wordmark"
-            />
+            {tech.map((item) => (
+              <Techstack
+                key={item.name}
+                iconName={item.iconName}
+                hoverIcon={item.hoverIcon}
+              />
+            ))}
           </Row>
           <h1 className="project-heading">
             <strong className="purple">Tools</strong> I use
           </h1>
           <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
-            <Techstack
-              iconName="devicon-ubuntu-plain"
-              hoverIcon="devicon-ubuntu-plain-wordmark"
-            />
-            <Techstack
-              iconName="devicon-git-plain"
-              hoverIcon="devicon-git-plain-wordmark"
-            />
-            <Techstack
-              iconName="devicon-vscode-plain"
-              hoverIcon="devicon-vscode-plain-wordmark"
-            />
-            <Techstack
-              iconName="devicon-github-original"
-              hoverIcon="devicon-github-original-wordmark"
-            />
-            <Techstack iconName="cib-postman" />
-            <Techstack
-              iconName="devicon-firebase-plain"
-              hoverIcon="devicon-firebase-plain-wordmark"
-            />
+            {tools.map((item) => (
+              <Techstack
+                key={item.name}
+                iconName={item.iconName}
+                hoverIcon={item.hoverIcon}
+              />
+            ))}
           </Row>
           <Github />
         </Container>

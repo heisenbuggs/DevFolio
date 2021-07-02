@@ -1,0 +1,113 @@
+{
+  "languages": [
+    {
+      "name": "C++",
+      "iconName": "devicon-cplusplus-line",
+      "hoverIcon": "devicon-cplusplus-line"
+    },
+    {
+      "name": "JavaScript",
+      "iconName": "devicon-javascript-plain",
+      "hoverIcon": "devicon-javascript-plain"
+    },
+    {
+      "name": "TypeScript",
+      "iconName": "devicon-typescript-plain",
+      "hoverIcon": "devicon-typescript-plain"
+    },
+    {
+      "name": "Python",
+      "iconName": "devicon-python-plain",
+      "hoverIcon": "devicon-python-plain-wordmark"
+    },
+    {
+      "name": "HTML",
+      "iconName": "devicon-html5-plain",
+      "hoverIcon": "devicon-html5-plain-wordmark"
+    },
+    {
+      "name": "CSS",
+      "iconName": "devicon-css3-plain",
+      "hoverIcon": "devicon-css3-plain-wordmark"
+    }
+  ],
+  "tech": [
+    {
+      "name": "React",
+      "iconName": "devicon-react-original",
+      "hoverIcon": "devicon-react-original-wordmark"
+    },
+    {
+      "name": "Redux",
+      "iconName": "devicon-redux-original",
+      "hoverIcon": "devicon-redux-original"
+    },
+    {
+      "name": "Next.js",
+      "iconName": "devicon-nextjs-original",
+      "hoverIcon": "devicon-nextjs-original-wordmark"
+    },
+    {
+      "name": "Node.js",
+      "iconName": "devicon-nodejs-plain",
+      "hoverIcon": "devicon-nodejs-plain-wordmark"
+    },
+    {
+      "name": "Express",
+      "iconName": "devicon-express-original",
+      "hoverIcon": "devicon-express-original-wordmark"
+    },
+    {
+      "name": "Django",
+      "iconName": "devicon-django-plain",
+      "hoverIcon": "devicon-django-line"
+    },
+    {
+      "name": "Bootstrap",
+      "iconName": "devicon-bootstrap-plain",
+      "hoverIcon": "devicon-bootstrap-plain-wordmark"
+    },
+    {
+      "name": "MongoDB",
+      "iconName": "devicon-mongodb-plain",
+      "hoverIcon": "devicon-mongodb-plain-wordmark"
+    },
+    {
+      "name": "MySQL",
+      "iconName": "devicon-mysql-plain",
+      "hoverIcon": "devicon-mysql-plain-wordmark"
+    }
+  ],
+  "tools": [
+    {
+      "name": "Ubuntu",
+      "iconName": "devicon-ubuntu-plain",
+      "hoverIcon": "devicon-ubuntu-plain-wordmark"
+    },
+    {
+      "name": "VSCode",
+      "iconName": "devicon-vscode-plain",
+      "hoverIcon": "devicon-vscode-plain"
+    },
+    {
+      "name": "Git",
+      "iconName": "devicon-git-plain",
+      "hoverIcon": "devicon-git-plain-wordmark"
+    },
+    {
+      "name": "Heroku",
+      "iconName": "devicon-heroku-original",
+      "hoverIcon": "devicon-heroku-original-wordmark"
+    },
+    {
+      "name": "Postman",
+      "iconName": "cib-postman",
+      "hoverIcon": "cib-postman"
+    },
+    {
+      "name": "Firebase",
+      "iconName": "devicon-firebase-plain",
+      "hoverIcon": "devicon-firebase-plain-wordmark"
+    }
+  ]
+}

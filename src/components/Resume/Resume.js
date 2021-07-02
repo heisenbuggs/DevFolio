@@ -26,9 +26,17 @@ const Resume = () => {
             <Col md={6} className="resume-left">
               <h3 className="resume-heading">Experience</h3>
               <Resumecontent
+                title="React Developer Intern"
+                institute="NoBroker.com"
+                date="June 2021 - Present"
+                content={[
+                  "Built an RM statistics Dashboard website using React, Chart.js, D3.js, CSS and Reactstrap."
+                ]}
+              />
+              <Resumecontent
                 title="Software Development Intern"
                 institute="Doozie"
-                date="June 2020 - August 2020"
+                date="August 2020 - November 2020"
                 content={[
                   "Developed user-friendly website from scratch using ReactJS and MaterialUI that increased userclicks subsequently customer visits by 30%.",
                   "Fixed bugs and implemented enhancements from existing website that improved web functionality and speed.",
@@ -40,7 +48,7 @@ const Resume = () => {
                 date="2018 - Present"
                 institute="Shri G.S. Institute of Technology & Science, Indore"
               />
-              <Resumecontent
+              {/* <Resumecontent
                 title="High School"
                 date="May 2018"
                 institute="New Shanti Niketan Higher Sec. School, Vidisha"
@@ -49,7 +57,7 @@ const Resume = () => {
                 title="Middle School "
                 date="May 2016"
                 institute="St. Mary's Convent Sr. Sec. School, Bhopal"
-              />
+              /> */}
             </Col>
             <Col md={6} className="resume-right">
               <h3 className="resume-heading">Achievements</h3>
