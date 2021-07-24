@@ -91,33 +91,20 @@
   font-family: sans-serif;
 }
 
-.like-btn {
+.download-btn {
   background-color: #934cce5e;
   border-color: #934cce5e;
-  padding: 0.25rem 0.98rem;
+  padding: 0.5rem 1.04rem;
   border-radius: 5px;
   line-height: 1.4;
   transition: 0.3s ease;
 }
 
-.like-btn:hover {
-  transform: translateY(-2px);
-  background-color: #a24dd386;
-  border-color: #a24dd386;
-}
-
-.animate-like {
-  animation-name: likeAnimation;
-  animation-fill-mode: forwards;
-  animation-duration: 0.85s;
-}
-@keyframes likeAnimation {
-  0% {
-    transform: scale(1.5);
-  }
-  100% {
-    transform: scale(1);
-  }
+.download-btn:hover {
+  transform: translateY(-3px);
+  background-color: #a24dd3;
+  border-color: #87209e;
+  box-shadow: 0 8px 20px #a200ff3a;
 }
 
 

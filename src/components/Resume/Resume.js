@@ -18,7 +18,12 @@ const Resume = () => {
         <Particle />
         <Container>
           <Row style={{ justifyContent: "center", position: "relative" }}>
-            <Button variant="primary" href={pdf} target="_blank">
+            <Button
+              variant="primary"
+              href={pdf}
+              target="_blank"
+              className="download-btn"
+            >
               <i className="fas fa-download">&nbsp;</i>Download Resume
             </Button>
           </Row>
@@ -30,7 +35,8 @@ const Resume = () => {
                 institute="NoBroker.com"
                 date="June 2021 - Present"
                 content={[
-                  "Built an RM statistics Dashboard website using React, Chart.js, D3.js, CSS and Reactstrap."
+                  "Implemented SEO friendly Web application with Next.js, Tailwind and CSS which increased user interaction providing 40% efficient search rate.",
+                  "Built an RM statistics Dashboard webapp from scratch using React, Chart.js, CSS and Reactstrap which enhanced productivity of 1200 RMs.",
                 ]}
               />
               <Resumecontent
@@ -38,8 +44,8 @@ const Resume = () => {
                 institute="Doozie"
                 date="August 2020 - November 2020"
                 content={[
-                  "Developed user-friendly website from scratch using ReactJS and MaterialUI that increased userclicks subsequently customer visits by 30%.",
-                  "Fixed bugs and implemented enhancements from existing website that improved web functionality and speed.",
+                  "Developed user-friendly website from scratch using ReactJS and Material UI that increased user clicks subsequently customer visits by 30%.",
+                  "Fixed bugs and implemented enhancements from existing website that improved web functionality.",
                 ]}
               />
               <h3 className="resume-heading">Education</h3>
@@ -82,7 +88,12 @@ const Resume = () => {
             </Col>
           </Row>
           <Row style={{ justifyContent: "center", position: "relative" }}>
-            <Button variant="primary" href={pdf} target="_blank">
+            <Button
+              variant="primary"
+              href={pdf}
+              target="_blank"
+              className="download-btn"
+            >
               <i className="fas fa-download">&nbsp;</i>Download Resume
             </Button>
           </Row>

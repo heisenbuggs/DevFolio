@@ -10,7 +10,6 @@ import Resume from "./components/Resume/Resume";
 import { HashRouter as Router, Route, Switch } from "react-router-dom";
 import "./styles/Scrollbar.css";
 import "bootstrap/dist/css/bootstrap.min.css";
-import ScrollToTop from "./components/ScrollToTop";
 
 const App = () => {
   const [load, updateLoad] = useState(true);
@@ -26,7 +25,6 @@ const App = () => {
       <Preloader load={load} />
       <div className="App" id={load ? "no-scroll" : "scroll"}>
         <Navbar />
-        <ScrollToTop />
         <Switch>
           <Route path="/" exact component={Home} />
           <Route path="/project" component={Projects} />

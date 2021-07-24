@@ -121,12 +121,18 @@
     padding: 0.25rem 1.1rem;
     vertical-align: middle;
     text-align: center;
+    text-decoration: none;
 }
 
 .fork-btn-inner:hover {
     transform: translateY(-2px);
-    background-color: #a24dd386;
-    border-color: #a24dd386;
+    background-color: #a24dd386 !important;
+    border-color: #a24dd386 !important;
+    text-decoration: none;
+}
+
+.btn-primary {
+    background-color: #934cce5e !important;
 }
 
 .fork-btn-inner::after {
