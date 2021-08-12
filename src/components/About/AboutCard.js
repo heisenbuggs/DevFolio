@@ -13,7 +13,7 @@ const AboutCard = () => {
             from <span className="purple"> Bhopal, India.</span>
             <br />
             {
-              "I am a third year undergraduate pursuing B.Tech. in Electronics & Communication in SGSITS, Indore ."
+              "I am a final year undergraduate pursuing B.Tech. in Electronics & Communication in SGSITS, Indore ."
             }
             <br />
             <br />
