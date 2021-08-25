@@ -14,7 +14,7 @@ import coursera from "../../assets/Projects/Coursera.png";
 import gfg from "../../assets/Projects/Gfg.png";
 import editor from "../../assets/Projects/codeditor.jpg";
 import linkedin from "../../assets/Projects/linkedin.jpg";
-import quizify from "../../assets/Projects/quizify.png";
+import quiziify from "../../assets/Projects/quiziify.png";
 
 const Projects = () => {
   return (
@@ -33,9 +33,9 @@ const Projects = () => {
           <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
             <Col md={4} className="project-card">
               <ProjectCard
-                imgPath={quizify}
+                imgPath={quiziify}
                 isBlog={false}
-                title="Quizify"
+                title="Quiziify"
                 description="Quiz Management App for both teachers and students with speech recognition for blind students too. Built using React, Node.js, Express.js and MongoDB with Firebase."
                 link="https://quiziify.herokuapp.com/"
               />
