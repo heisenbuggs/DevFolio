@@ -1,0 +1,141 @@
+.sticky {
+    background-color: #212038d8;
+    transition: all 0.3s ease-out 0s;
+    box-shadow: 0px 10px 10px 0px rgba(9, 5, 29, 0.171);
+    backdrop-filter: blur(15px);
+}
+
+.navbar {
+    position: fixed;
+    transition: all 0.3s ease-out 0s;
+    padding: 0.3rem 2rem;
+    font-size: 1.2rem;
+}
+
+.navbar-toggler {
+    padding: 0.25rem 1.5rem;
+    position: relative;
+    background-color: transparent;
+    border-color: transparent;
+}
+
+.navbar-toggler span {
+    display: block;
+    background-color: #be50f4;
+    height: 4px;
+    width: 27px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    transform: rotate(0deg);
+    left: 0;
+    opacity: 1;
+}
+
+.navbar-toggler:focus,
+.navbar-toggler:active {
+    outline: 0;
+}
+
+.brand {
+    margin-top: 10px;
+    font-size: 1.75rem;
+}
+
+@media (max-width: 806px) {
+    .navbar {
+        padding: 0rem 2rem 0.5rem 2rem;
+        font-size: 1.4rem;
+        background-color: #181a27;
+    }
+
+    .navbar-nav .nav-item a::after {
+        display: none;
+    }
+
+    .brand {
+        margin-top: 10px;
+        color: #d985fa;
+    }
+
+    .nav-link {
+        padding: 0.7rem 1rem;
+    }
+}
+
+.navbar-brand {
+    color: rgb(250, 250, 250) !important;
+}
+
+.logo {
+    height: 1.4em;
+    width: 2.5em;
+}
+
+.navbar-nav .nav-link {
+    color: white !important;
+    padding-right: 1rem;
+    padding-left: 1rem;
+}
+
+.nav-link {
+    padding: 0.8rem 1rem;
+}
+
+.navbar-nav .nav-item {
+    position: relative;
+    margin-left: 20px;
+}
+
+.navbar-nav .nav-item a {
+    font-weight: 400;
+    transition: all 0.3s ease-out 0s;
+    position: relative;
+    z-index: 1;
+}
+
+.navbar-nav .nav-item:nth-child(-n+4) a::after {
+    content: "";
+    position: relative;
+    display: block;
+    height: 5px;
+    width: 0;
+    border-radius: 16px;
+    background: #c95bf5;
+    bottom: 1px;
+    left: 0;
+    z-index: -1;
+    transition: all 0.3s ease-out 0s;
+}
+
+.navbar-nav .nav-item a:hover::after {
+    width: 100%;
+}
+
+.fork-btn {
+    font-size: 1.1em;
+    padding-top: 10px;
+}
+
+.fork-btn-inner {
+    line-height: 1.4em;
+    background-color: #934cce5e;
+    padding: 0.25rem 1.1rem;
+    vertical-align: middle;
+    text-align: center;
+    text-decoration: none;
+}
+
+.fork-btn-inner:hover {
+    transform: translateY(-2px);
+    background-color: #a24dd386;
+    border-color: #a24dd386;
+    text-decoration: none;
+}
+
+.btn-primary {
+    background-color: #934cce5e;
+}
+
+.fork-btn-inner::after {
+    display: none;
+}

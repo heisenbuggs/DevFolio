@@ -1,0 +1,24 @@
+.buttonDiv {
+    font-size: 1.1em;
+    padding-top: 10px;
+}
+
+.custombutton {
+    line-height: 1.4em;
+    background-color: #934cce5e;
+    padding: 0.25rem 1.1rem;
+    vertical-align: middle;
+    text-align: center;
+    text-decoration: none;
+}
+
+.custombutton:hover {
+    transform: translateY(-2px);
+    background-color: #a24dd386 !important;
+    border-color: #a24dd386 !important;
+    text-decoration: none;
+}
+
+.custombutton::after {
+    display: none;
+}

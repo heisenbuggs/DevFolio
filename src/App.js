@@ -1,15 +1,25 @@
-import "./App.css";
-import React, { useState, useEffect } from "react";
-import Preloader from "../src/components/PreLoader";
-import Navbar from "./components/Navbar";
-import Home from "./components/Home/Home";
-import About from "./components/About/About";
-import Projects from "./components/Projects/Projects";
-import Footer from "./components/Footer";
-import Resume from "./components/Resume/Resume";
-import { HashRouter as Router, Route, Switch } from "react-router-dom";
-import "./styles/Scrollbar.css";
-import "bootstrap/dist/css/bootstrap.min.css";
+import './App.css';
+import './styles/Scrollbar.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
+
+import React, {
+  useEffect,
+  useState,
+} from 'react';
+
+import {
+  HashRouter as Router,
+  Route,
+  Switch,
+} from 'react-router-dom';
+
+import FooterComponent from './components/FooterComponent';
+import HeaderComponent from './components/HeaderComponent';
+import CustomLoader from './ui/Loader';
+import About from './views/AboutPage';
+import Home from './views/HomePage';
+import Projects from './views/ProjectPage';
+import Resume from './views/ResumePage';
 
 const App = () => {
   const [load, updateLoad] = useState(true);
@@ -22,16 +32,16 @@ const App = () => {
 
   return (
     <Router>
-      <Preloader load={load} />
+      <CustomLoader load={load} />
       <div className="App" id={load ? "no-scroll" : "scroll"}>
-        <Navbar />
+        <HeaderComponent/>
         <Switch>
           <Route path="/" exact component={Home} />
           <Route path="/project" component={Projects} />
           <Route path="/about" component={About} />
           <Route path="/resume" component={Resume} />
         </Switch>
-        <Footer />
+        <FooterComponent />
       </div>
     </Router>
   );
