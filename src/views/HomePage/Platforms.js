@@ -33,7 +33,7 @@ const Platforms = () => {
                 icon={githubFill}
                 height={32}
                 width={32}
-                style={{ marginBottom: 6 }}
+                style={{ marginBottom: 8 }}
               />
             </a>
           </li>
@@ -49,7 +49,7 @@ const Platforms = () => {
                 icon={codechefIcon}
                 height={32}
                 width={32}
-                style={{ marginBottom: 6 }}
+                style={{ marginBottom: 8 }}
               />
             </a>
           </li>
@@ -65,7 +65,7 @@ const Platforms = () => {
                 icon={leetcodeIcon}
                 height={28}
                 width={28}
-                style={{ marginBottom: 6 }}
+                style={{ marginBottom: 8 }}
               />
             </a>
           </li>
@@ -81,7 +81,7 @@ const Platforms = () => {
                 icon={linkedinFill}
                 height={30}
                 width={30}
-                style={{ marginBottom: 6 }}
+                style={{ marginBottom: 8 }}
               />
             </a>
           </li>
@@ -97,7 +97,7 @@ const Platforms = () => {
                 icon={geeksforgeeksIcon}
                 height={28}
                 width={28}
-                style={{ marginBottom: 6 }}
+                style={{ marginBottom: 8 }}
               />
             </a>
           </li>
@@ -113,7 +113,7 @@ const Platforms = () => {
                 icon={hackerrankIcon}
                 height={32}
                 width={32}
-                style={{ marginBottom: 6 }}
+                style={{ marginBottom: 8 }}
               />
             </a>
           </li>

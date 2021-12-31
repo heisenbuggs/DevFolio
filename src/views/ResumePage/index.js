@@ -15,6 +15,10 @@ import Animate from 'react-smooth';
 import pdf from '../../assets/Resume_PrasukJain.pdf';
 import particles from '../../components/LineParticle';
 import particleParams from '../../components/Particle';
+import {
+  ACHIEVEMENTS,
+  WORK_EXPERIENCE,
+} from '../../utils/constants/resumeContent';
 import Resumecontent from './ResumeContent';
 
 const Resume = () => {
@@ -37,32 +41,17 @@ const Resume = () => {
           <Row className="resume">
             <Col md={6} className="resume-left">
               <h3 className="resume-heading">Experience</h3>
-              <Resumecontent
-                title="SDE Intern"
-                institute="Groww"
-                date="Aug 2021 - Present"
-                content={[
-                  "Started working on fixing bugs and implementing suggested features of the website using React and CSS."
-                ]}
-              />
-              <Resumecontent
-                title="Frontend Developer Intern"
-                institute="NoBroker.com"
-                date="June 2021 - Aug"
-                content={[
-                  "Implemented SEO friendly Web application with Next.js, Tailwind and CSS which increased user interaction providing 40% efficient search rate.",
-                  "Built an RM statistics Dashboard webapp from scratch using React, Chart.js, CSS and Reactstrap which enhanced productivity of 1200 RMs.",
-                ]}
-              />
-              <Resumecontent
-                title="Software Development Intern"
-                institute="Doozie"
-                date="August 2020 - November 2020"
-                content={[
-                  "Developed user-friendly website from scratch using ReactJS and Material UI that increased user clicks subsequently customer visits by 30%.",
-                  "Fixed bugs and implemented enhancements from existing website that improved web functionality.",
-                ]}
-              />
+              {
+                WORK_EXPERIENCE.map((item) => (
+                  <Resumecontent
+                    key={item.company}
+                    title={item.title}
+                    institute={item.company}
+                    date={item.date}
+                    content={item.content}
+                  />
+                ))
+              }
             </Col>
             <Col md={6} className="resume-right">
             <h3 className="resume-heading">Education</h3>
@@ -84,13 +73,7 @@ const Resume = () => {
               <h3 className="resume-heading">Achievements</h3>
               <Resumecontent
                 title=""
-                content={[
-                  "Level 8 Coder out of 10 among 40000 participants in Uber HackTag’21.",
-                  "Secured Global Rank 340 in September Lunchtime’20 held on CodeChef.",
-                  "Rated 4 star coder on CodeChef. (Max. Rating : 1831).",
-                  "Secured 2nd position in Web-Athon conducted by Progate at Indore-City Level.",
-                  "Secured Top 50 Rank in open source projects in GirlScript Summer of Code’20.",
-                ]}
+                content={ACHIEVEMENTS}
               />
               <h3 className="resume-heading">Extracurricular Activities</h3>
               <Resumecontent

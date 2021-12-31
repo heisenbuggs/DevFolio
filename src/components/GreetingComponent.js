@@ -1,5 +1,9 @@
-import React, { useEffect, useState } from "react";
-import TextTransition, { presets } from "react-text-transition";
+import React, {
+  useEffect,
+  useState,
+} from 'react';
+
+import TextTransition, { presets } from 'react-text-transition';
 
 const TEXTS = [
   "Hello There!!",
@@ -27,7 +31,7 @@ const Greeting = () => {
     <h1 style={{ paddingBottom: 15 }} className="heading">
       <TextTransition
         text={TEXTS[index % TEXTS.length]}
-        springConfig={presets.gentle}
+        springConfig={presets.wobbly}
       />
     </h1>
   );

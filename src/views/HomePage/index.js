@@ -45,7 +45,7 @@ const Home = () => {
                 <Platforms />
               </Col>
 
-              <Col md={12} lg={5} style={{ paddingBottom: 20 }}>
+              <Col md={12} lg={5} style={{ paddingBottom: 20, marginTop: 20 }}>
                 <img src={homeLogo} alt="home pic" className="img-fluid" />
               </Col>
             </Row>

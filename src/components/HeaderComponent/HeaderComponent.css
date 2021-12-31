@@ -39,6 +39,7 @@
 .brand {
     margin-top: 10px;
     font-size: 1.75rem;
+    font-family: Agustina Regular; 
 }
 
 @media (max-width: 806px) {
@@ -48,8 +49,9 @@
         background-color: #181a27;
     }
 
-    .navbar-nav .nav-item a::after {
-        display: none;
+    .navbar-nav .nav-item a:after,
+    .navbar-nav .nav-item a:active:after {
+        visibility: hidden;
     }
 
     .brand {
@@ -84,6 +86,7 @@
 .navbar-nav .nav-item {
     position: relative;
     margin-left: 20px;
+    margin-left: 25px;
 }
 
 .navbar-nav .nav-item a {
@@ -99,12 +102,13 @@
     display: block;
     height: 5px;
     width: 0;
+    top: 2px;
     border-radius: 16px;
     background: #c95bf5;
     bottom: 1px;
     left: 0;
     z-index: -1;
-    transition: all 0.3s ease-out 0s;
+    transition: all 0.3s ease-in-out 0s;
 }
 
 .navbar-nav .nav-item a:hover::after {

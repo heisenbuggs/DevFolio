@@ -1,5 +1,6 @@
-import React from "react";
-import Typewriter from "typewriter-effect";
+import React from 'react';
+
+import Typewriter from 'typewriter-effect';
 
 const Type = () => {
   return (
@@ -9,11 +10,11 @@ const Type = () => {
           "SDE Intern @Groww",
           "ex-Intern @NoBroker",
           "Full - Stack Developer",
-          "Open Source Contributor",
+          "Open Source Contributor"
         ],
         autoStart: true,
         loop: true,
-        deleteSpeed: 50,
+        deleteSpeed: 30,
       }}
     />
   );

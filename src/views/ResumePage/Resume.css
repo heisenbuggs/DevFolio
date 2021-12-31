@@ -82,7 +82,7 @@
   top: 5px;
   background: #fff;
   box-shadow: 0 0 0 8px #801f95;
-  border: 2px solid #8a49a8;
+  border: 2px solid #87209e81;
 }
 
 .like-item {
@@ -102,8 +102,8 @@
 
 .download-btn:hover {
   transform: translateY(-3px);
-  background-color: #a24dd3;
-  border-color: #87209e;
+  background-color: #a24dd394;
+  border-color: #87209e81;
   box-shadow: 0 8px 20px #a200ff3a;
 }
 
