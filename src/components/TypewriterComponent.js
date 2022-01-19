@@ -7,10 +7,10 @@ const Type = () => {
     <Typewriter
       options={{
         strings: [
-          "SDE Intern @Groww",
+          "SWE Intern @PhonePe",
+          "ex-Intern @Groww",
           "ex-Intern @NoBroker",
           "Full - Stack Developer",
-          "Open Source Contributor"
         ],
         autoStart: true,
         loop: true,

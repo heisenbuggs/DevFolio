@@ -10,7 +10,7 @@ export const WORK_EXPERIENCE = [
     }, 
     {
         title: "Software Developer Intern",
-        institute: "NoBroker.com",
+        company: "NoBroker.com",
         date: "June 2021 - Aug 2021",
         content: [
             "Implemented SEO friendly Web application with Next.js, Tailwind and CSS which increased user interaction providing 40% efficient search rate.",
@@ -19,7 +19,7 @@ export const WORK_EXPERIENCE = [
     },
     {
         title: "Software Development Intern",
-        institute: "Doozie",
+        company: "Doozie",
         date: "August 2020 - November 2020",
         content: [
             "Developed user-friendly website from scratch using ReactJS and Material UI that increased user clicks subsequently customer visits by 30%.",

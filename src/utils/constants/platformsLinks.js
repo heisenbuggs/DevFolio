@@ -1,7 +1,7 @@
 const platformLinks = [
     {
         title: 'GitHub',
-        link: 'https://github.com/itzprasuk',
+        link: 'https://github.com/heisenbuggs',
         icon: 'githubFill',
     },
     {
@@ -11,7 +11,7 @@ const platformLinks = [
     },
     {
         title: 'LeetCode',
-        link: 'https://leetcode.com/itzprasuk/',
+        link: 'https://leetcode.com/heisenbuggs/',
         icon: 'leetcodeIcon',
     },
     {
@@ -21,7 +21,7 @@ const platformLinks = [
     },
     {
         title: 'GeeksforGeeks',
-        link: 'https://auth.geeksforgeeks.org/user/itzprasuk/practice/',
+        link: 'https://auth.geeksforgeeks.org/user/heisenbuggs/practice/',
         icon: 'geeksforgeeksIcon',
     },
     {

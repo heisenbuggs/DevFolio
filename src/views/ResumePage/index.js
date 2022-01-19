@@ -9,6 +9,7 @@ import {
   Row,
 } from 'react-bootstrap';
 import Button from 'react-bootstrap/Button';
+import { FaDownload } from 'react-icons/fa';
 import Particles from 'react-particles-js';
 import Animate from 'react-smooth';
 
@@ -35,7 +36,7 @@ const Resume = () => {
               target="_blank"
               className="download-btn"
             >
-              <i className="fas fa-download">&nbsp;</i>Download Resume
+              <FaDownload />&nbsp; Download Resume
             </Button>
           </Row>
           <Row className="resume">
@@ -92,7 +93,7 @@ const Resume = () => {
               target="_blank"
               className="download-btn"
             >
-              <i className="fas fa-download">&nbsp;</i>Download Resume
+              <FaDownload />&nbsp; Download Resume
             </Button>
           </Row>
         </Container>

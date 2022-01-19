@@ -1,7 +1,8 @@
-import React from "react";
-import Card from "react-bootstrap/Card";
+import 'bootstrap/dist/css/bootstrap.min.css';
 
-import "bootstrap/dist/css/bootstrap.min.css";
+import React from 'react';
+
+import Card from 'react-bootstrap/Card';
 
 const AboutCard = () => {
   return (
@@ -13,7 +14,7 @@ const AboutCard = () => {
             from <span className="purple"> Bhopal, India.</span>
             <br />
             {
-              "I am a final year undergraduate pursuing B.Tech. in Electronics & Communication in SGSITS, Indore ."
+              "I am a final year undergraduate pursuing B.Tech. in Electronics & Communication from SGSITS, Indore ."
             }
             <br />
             <br />

@@ -52,7 +52,7 @@ const Projects = () => {
                 isBlog={false}
                 title="Graph Visualizer"
                 description="Helps you to visualize your Graph with ease and make your learnings faster on a package using Vis-React. Developed using React, Typescript and Bootstrap."
-                link="https://github.com/itzprasuk/Graph-Visualizer"
+                link="https://github.com/heisenbuggs/Graph-Visualizer"
               />
             </Col>
 

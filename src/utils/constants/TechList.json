@@ -48,6 +48,11 @@
       "hoverIcon": "devicon-nextjs-original-wordmark"
     },
     {
+      "name": "Spring",
+      "iconName": "devicon-spring-plain",
+      "hoverIcon": "devicon-spring-plain-wordmark"
+    },
+    {
       "name": "Node.js",
       "iconName": "devicon-nodejs-plain",
       "hoverIcon": "devicon-nodejs-plain-wordmark"

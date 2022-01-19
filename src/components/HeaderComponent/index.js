@@ -15,6 +15,14 @@ import NavbarCollapse from 'react-bootstrap/esm/NavbarCollapse';
 import NavbarToggle from 'react-bootstrap/esm/NavbarToggle';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
+import {
+  FaCodeBranch,
+  FaUserSecret,
+} from 'react-icons/fa';
+import {
+  IoDocumentText,
+  IoHome,
+} from 'react-icons/io5';
 import { Link } from 'react-router-dom';
 
 import audio from '../../assets/tick.mp3';
@@ -48,7 +56,7 @@ const HeaderComponent = () => {
       <Container>
         <NavbarBrand href="/">
           <h3 className="brand">
-            <b>{"< itzprasuk />"}</b>
+            <b>{"< heisenbuggs />"}</b>
           </h3>
         </NavbarBrand>
         <NavbarToggle
@@ -64,7 +72,7 @@ const HeaderComponent = () => {
           <Nav className="ml-auto" defaultActiveKey="#home">
             <NavItem>
               <NavLink as={Link} to="/" onClick={() => updateExpanded(false)}>
-                <i className="fas fa-home"></i> Home
+              <IoHome /> Home
               </NavLink>
             </NavItem>
             <NavItem>
@@ -73,7 +81,7 @@ const HeaderComponent = () => {
                 to="/about"
                 onClick={() => updateExpanded(false)}
               >
-                <i className="fas fa-user"></i> About
+                <FaUserSecret /> About
               </NavLink>
             </NavItem>
             <NavItem>
@@ -82,7 +90,7 @@ const HeaderComponent = () => {
                 to="/project"
                 onClick={() => updateExpanded(false)}
               >
-                <i className="fas fa-code-branch"></i> Projects
+                <FaCodeBranch /> Projects
               </NavLink>
             </NavItem>
             <NavItem>
@@ -91,13 +99,13 @@ const HeaderComponent = () => {
                 to="/resume"
                 onClick={() => updateExpanded(false)}
               >
-                <i className="fas fa-file-pdf"></i> Resume
+                <IoDocumentText /> Resume
               </NavLink>
             </NavItem>
 
             <NavItem className="fork-btn">
               <Button
-                href="https://github.com/itzprasuk/DevFolio"
+                href="https://github.com/heisenbuggs/DevFolio"
                 target="_blank"
                 className="fork-btn-inner"
               >

@@ -44,7 +44,7 @@
 
 @media (max-width: 806px) {
     .navbar {
-        padding: 0rem 2rem 0.5rem 2rem;
+        padding: 1rem 1rem 0.5rem 1rem;
         font-size: 1.4rem;
         background-color: #181a27;
     }
@@ -61,6 +61,12 @@
 
     .nav-link {
         padding: 0.7rem 1rem;
+    }
+
+    .container button {
+        padding: 0px;
+        margin-top: -5px;
+        align-items: center;
     }
 }
 
